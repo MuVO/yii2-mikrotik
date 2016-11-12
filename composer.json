@@ -22,7 +22,7 @@
         "pear2/net_routeros": "*",
         "pear2/cache_shm": "*",
 	"yiisoft/yii2": "~2.0.0",
-        "muvo/yii2-ip-calc": "*",
+        "muvo/yii2-ip-calc": "*"
   },
   "autoload": {
     "psr-4": {
