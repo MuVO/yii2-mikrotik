@@ -1,0 +1,32 @@
+{
+  "name": "muvo/yii2-mikrotik",
+  "version": "0.0.1",
+  "type": "yii2-extension",
+  "description": "A component for interaction with a routers based on Mikrotik RouterOS",
+  "keywords": [
+    "yii2",
+    "mikrotik",
+    "routeros",
+    "module",
+    "component",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "Vladislav Muschinskikh",
+      "email": "i@unixoid.su"
+    }
+  ],
+  "require": {
+	"ext-apc": "*",
+        "pear2/net_routeros": "*",
+        "pear2/cache_shm": "*",
+	"yiisoft/yii2": "~2.0.0",
+        "muvo/yii2-ip-calc": "*",
+  },
+  "autoload": {
+    "psr-4": {
+      "muvo\\yii\\mikrotik\\": ""
+    }
+  }
+}
